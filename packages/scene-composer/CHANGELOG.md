@@ -3,6 +3,134 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.0](https://github.com/raymfang/iot-app-kit/compare/scene-composer-v9.15.0...scene-composer-v10.0.0) (2024-02-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* **composer:** remove deprecated and internal interfaces from public
+
+### Features
+
+* adding docker setup for scene-composer ui tests ([3db0c9b](https://github.com/raymfang/iot-app-kit/commit/3db0c9bf11dcba40782241f3886cd79f1912f00f))
+* **component:** allow disable/enable layer auto refresh ([5278b9c](https://github.com/raymfang/iot-app-kit/commit/5278b9c8eafb01510484b75cebd10e05bb921421))
+* **component:** utils to handle light component in entity ([26a1494](https://github.com/raymfang/iot-app-kit/commit/26a1494e5787a54f1292408f69ecac514100704e))
+* **composer:** add a11y color picker ([e768a88](https://github.com/raymfang/iot-app-kit/commit/e768a884118768b5080e745ef8113a344dd0d80e))
+* **composer:** add keyboard nav to floating toolbar ([efd375f](https://github.com/raymfang/iot-app-kit/commit/efd375fc7ba23fd7fe7617783f45a140e464ccdb))
+* **composer:** add utils to convert all nodes to entities ([4e305d4](https://github.com/raymfang/iot-app-kit/commit/4e305d4841a10d962c0278f60858297297146570))
+* **composer:** append scene node action creates entity for dynamic scene ([4ebe88a](https://github.com/raymfang/iot-app-kit/commit/4ebe88a6db092e4943db702c90961cf57fb100a3))
+* **composer:** convert nodes to entities UI ([43f5e66](https://github.com/raymfang/iot-app-kit/commit/43f5e663efb0e517a2f1e0badb369a43438b0675))
+* **composer:** enable auto query feature ([661af11](https://github.com/raymfang/iot-app-kit/commit/661af1188f690d6b2a33f26a6105b5fecdc539b9))
+* **composer:** render tags from layer ([d9c5191](https://github.com/raymfang/iot-app-kit/commit/d9c519114d3e39c3913eb32b23984f8204b756d8))
+* **composer:** save scene level data to scene root entity ([6cabfb5](https://github.com/raymfang/iot-app-kit/commit/6cabfb55de10004b1f0314cb7be931ef3969b09e))
+* **composer:** show delete confirmation modal for dynamic scene ([fdc9ef1](https://github.com/raymfang/iot-app-kit/commit/fdc9ef16df97d1528b3f28c96470e513bb9722a7))
+* **composer:** support showing flash message ([da7281a](https://github.com/raymfang/iot-app-kit/commit/da7281a84e47325c56071850f6ea49a6eed73233))
+* **composer:** support sync matterport tag as entities ([7db178a](https://github.com/raymfang/iot-app-kit/commit/7db178a4aee74cbd299dc115c7cf3786dc376800))
+* **composer:** support tag custom icon in entity ([dc07a1d](https://github.com/raymfang/iot-app-kit/commit/dc07a1dc3a2634b4d62de334b42499cd2e6f3060))
+* **composer:** utils to handle camera component in entity ([7ad3bf5](https://github.com/raymfang/iot-app-kit/commit/7ad3bf51a7d548edc242a6d2c9de13167ec2d4bb))
+* **composer:** utils to handle model shader component in entity ([95a4be6](https://github.com/raymfang/iot-app-kit/commit/95a4be668b51d413589b16b7edde67fdd40375d1))
+* **composer:** utils to handle motion indicator component in entity ([4a1a8b4](https://github.com/raymfang/iot-app-kit/commit/4a1a8b4a972670e56363f445aed7038253e5192d))
+* **composer:** utils to handle subModelRef component in entity ([d425c57](https://github.com/raymfang/iot-app-kit/commit/d425c5706790575dda50be733fd5a618cbafff0e))
+* **dynamic scene:** crud functionalities for model ref ([2314926](https://github.com/raymfang/iot-app-kit/commit/2314926f385c44f76243223839f9d3d4f6325c51))
+* **dynamic scenes:** save node updates to entities ([0bb2445](https://github.com/raymfang/iot-app-kit/commit/0bb2445fb39659ca970c51319a42cd2d0ff95360))
+* **dynamic scenes:** update entities using dynamic scenes ([8eee582](https://github.com/raymfang/iot-app-kit/commit/8eee582e039a5cb2a3e25c81f822a4ecca95672c))
+* **first Person:** proof of using pointer lock for a first person view ([391eddd](https://github.com/raymfang/iot-app-kit/commit/391edddd5ab3c56be2e394aec06346dfbc29b776))
+* **propertyName:** add copy button and textarea ([7c0eaf4](https://github.com/raymfang/iot-app-kit/commit/7c0eaf432e40e25a5319a29e7546442d81e8c3dc))
+* **scene composer:** added icon picker changes ([8ca53b8](https://github.com/raymfang/iot-app-kit/commit/8ca53b8552f9eb09f107ea43d983a6b47f19fa88))
+* **scene composer:** adding data-testid to improve e2e test ([1e5ab86](https://github.com/raymfang/iot-app-kit/commit/1e5ab863f89fcdf66aa7b4c0e3b0f5c77367411e))
+* **scene composer:** fix for icon rules and save icon metadata ([0ac8508](https://github.com/raymfang/iot-app-kit/commit/0ac85082391d34731fafa73f826309e66d9f6000))
+* **scene composer:** icon picker rule changes ([e126b53](https://github.com/raymfang/iot-app-kit/commit/e126b53371a0c3a03a4e7ff1d48f104c9b99c395))
+* **scene composer:** setting up 3D test harness ([df62eef](https://github.com/raymfang/iot-app-kit/commit/df62eefd048a66f327070bc8c90b4c9b964de26e))
+* **scene-composer:** enable accelerated raycasting for 3D Tiles ([84d2ce4](https://github.com/raymfang/iot-app-kit/commit/84d2ce4783c74a3792c11009f99cfac888cd848d))
+* **scene-composer:** support tag occlusion ([3764013](https://github.com/raymfang/iot-app-kit/commit/376401335e6c4d4646bfc49260e35a41a9a43646))
+* **scene:** add asset type filter option for browser callback ([f65d4f0](https://github.com/raymfang/iot-app-kit/commit/f65d4f0d5429dfa25b90208d924bfe3c3e3640df))
+* **scene:** add fog settings to scene ([78c6e75](https://github.com/raymfang/iot-app-kit/commit/78c6e756ff7acfeace2be2473ae6c4defcb94af6))
+* **scene:** add ground plane button ([c282c41](https://github.com/raymfang/iot-app-kit/commit/c282c41e5f96c403a7cbbea95dc5a759ab2d4193))
+* **scene:** enable scene backgrounds ([e630ff2](https://github.com/raymfang/iot-app-kit/commit/e630ff21ef69010e1ac1cac705460e581c0310eb))
+* **scene:** move add ground plane to settings ([3b0c59b](https://github.com/raymfang/iot-app-kit/commit/3b0c59b13243892a657f8ed975448babe7a6caec))
+* **scene:** textures for backgrounds and planes ([0b2104a](https://github.com/raymfang/iot-app-kit/commit/0b2104ae299f899b88ac4d77696b075793ceed1d))
+* set tagStyle flag to true for viewer ([af5357f](https://github.com/raymfang/iot-app-kit/commit/af5357f53e59ed227319c0a37061b4b07b62584e))
+* **Tiles3D:** add Tiles3D AssetType and evaluate model type when adding a 3D model to the scene ([eec0f50](https://github.com/raymfang/iot-app-kit/commit/eec0f508caa4b1f6b2c7a84baa4f45bf4dc7195b))
+* **TM-source:** add entity APIs to SceneMetadataModule ([1a91084](https://github.com/raymfang/iot-app-kit/commit/1a910844692aa30bbd4b9d1920d415378bcad130))
+
+
+### Bug Fixes
+
+* **camera:** selecting camera view uses raycast to set better target distance for orbit ([76d9272](https://github.com/raymfang/iot-app-kit/commit/76d927214ae02ca2c1c8657afb9f8d01bf396548))
+* **camera:** stop camera view inspector panel from overwriting changes unexpectedly ([37a8122](https://github.com/raymfang/iot-app-kit/commit/37a8122b54ef95f7dca56ad341a5183fd11a05f8))
+* **composer:** add aria labels to buttons in hierarchy panel ([24c8c30](https://github.com/raymfang/iot-app-kit/commit/24c8c30594a0961509079bd942763d22d0d9ccdf))
+* **composer:** add aria labels to icons ([8a70eb1](https://github.com/raymfang/iot-app-kit/commit/8a70eb13f081b39dae701dfa999e8aa3ce0a8378))
+* **composer:** add aria labels to rules panel ([ff78ab0](https://github.com/raymfang/iot-app-kit/commit/ff78ab0831170be7c5bad53cba0c903d20034aaf))
+* **composer:** add new translations ([de7249a](https://github.com/raymfang/iot-app-kit/commit/de7249a8a920e1c43faeda4fd94fb57e9d0fc9f3))
+* **composer:** associate inputs to labels ([8b64f9a](https://github.com/raymfang/iot-app-kit/commit/8b64f9aa38761ed684be8b9088a8b7edd6bb0681))
+* **composer:** autofocus on error, rules panel ([b132e27](https://github.com/raymfang/iot-app-kit/commit/b132e278a00a8729642afeec3382312685877110))
+* **composer:** bug fixes for dynamic scene ([10046da](https://github.com/raymfang/iot-app-kit/commit/10046daf2ef3ea2d161321a7794d019db3ccd76f))
+* **composer:** bug fixes for dynamic scene ([2f3b396](https://github.com/raymfang/iot-app-kit/commit/2f3b396bc9aa41c2e4df17b0d9a47863db97f211))
+* **composer:** cannot delete node entity with child ([a7976bb](https://github.com/raymfang/iot-app-kit/commit/a7976bb55afbc83d0fd3848ef1eb1fd6a81dedbc))
+* **composer:** cannot delete scene node of a child and then its parent ([a2e140a](https://github.com/raymfang/iot-app-kit/commit/a2e140ab0ef05975e2ec1d8e36a4d68ad9087911))
+* **composer:** create default entity roots ([4b38ea5](https://github.com/raymfang/iot-app-kit/commit/4b38ea598360fdaa4dd3545273dab888963d7bb7))
+* **composer:** create existing matterport tag as entities ([0d1d16e](https://github.com/raymfang/iot-app-kit/commit/0d1d16e17c35af067ef1f5f4f41030bfd3897d9a))
+* **composer:** custom tag rendered slightly off the center ([0cecac1](https://github.com/raymfang/iot-app-kit/commit/0cecac14f2ff201f3f5eb16446b7aab43acf10ce))
+* **composer:** debounce component update to reduce UpdateEntity error ([4f13db1](https://github.com/raymfang/iot-app-kit/commit/4f13db18ae134c7a95c50ed1d855e9e977f59539))
+* **composer:** error when switching motion indicator appearance ([c51f135](https://github.com/raymfang/iot-app-kit/commit/c51f13530b36c8a7e1e17d8ea65c4bec515fb16d))
+* **composer:** floating toolbar orientation dependent on screen size ([228037d](https://github.com/raymfang/iot-app-kit/commit/228037da8351499be142b75fc6b62aefc9047ee2))
+* **composer:** get entityBinding in different query ([b4e4a22](https://github.com/raymfang/iot-app-kit/commit/b4e4a22cebeeb39027052c47bb8647bae836d3c2))
+* **composer:** improve load sub model latency ([23ad9ad](https://github.com/raymfang/iot-app-kit/commit/23ad9ada3b89295b66738cdfc297dc6e0bf72a03))
+* **composer:** lock 3d tiles lib to working version ([f719bc4](https://github.com/raymfang/iot-app-kit/commit/f719bc4964e454db16d6c746548b37c092692ca3))
+* **composer:** matterport tag sync tag style under flag ([83334ce](https://github.com/raymfang/iot-app-kit/commit/83334ce21a089ecff46c86ddfb320f1bafe6011d))
+* **composer:** persist new dynamic node world transform ([cb6704f](https://github.com/raymfang/iot-app-kit/commit/cb6704f5b8767bfacad8244415daa2283efd6250))
+* **composer:** refactor scene modal rendering ([1d797b1](https://github.com/raymfang/iot-app-kit/commit/1d797b1a6aeab60e45f8e11daf8cd97b9b21033b))
+* **composer:** remove deprecated and internal interfaces from public ([07e82b4](https://github.com/raymfang/iot-app-kit/commit/07e82b42963931ddce95362f4a6cca9add6a1423))
+* **composer:** remove useCallback from menu event handlers ([0a7c133](https://github.com/raymfang/iot-app-kit/commit/0a7c13336760f2f0548e8c902a95086fb4d27be4))
+* **composer:** resize/reposition overlaps on small screens ([64d3855](https://github.com/raymfang/iot-app-kit/commit/64d3855b866ec6f50e7d9891863c1fea801ceabf))
+* **composer:** show sync matterport tag status ([2c041c5](https://github.com/raymfang/iot-app-kit/commit/2c041c56d637efd201e615e04f27a6761cc20c4c))
+* **composer:** split overlay content into parts ([328a33c](https://github.com/raymfang/iot-app-kit/commit/328a33c0fc3ad80666476099d9e49768fca03b2b))
+* **composer:** tag style field is empty when creating a new tag instead of info ([595147b](https://github.com/raymfang/iot-app-kit/commit/595147bc564b9599598c93059bc6ccf62b2c2b7e))
+* **composer:** trigger onSceneLoaded after dynamic scene is loaded ([4c9453a](https://github.com/raymfang/iot-app-kit/commit/4c9453a12211a878a850d71eee7cb8bd3d4a5fe3))
+* **composer:** update Polaris package version ([592c435](https://github.com/raymfang/iot-app-kit/commit/592c4359e325eb4149a0f872b30f87a0305feb5b))
+* **composer:** update property string length limit to 2048 ([a3cb800](https://github.com/raymfang/iot-app-kit/commit/a3cb8009d8547351449bac7c121e67d66971a708))
+* **CSS-Loader:** updated sass-loader & fixed style ([aee4abc](https://github.com/raymfang/iot-app-kit/commit/aee4abcd22617cd1b28641711a4be2d1bab4e252))
+* fix bug, update test ([24c8c30](https://github.com/raymfang/iot-app-kit/commit/24c8c30594a0961509079bd942763d22d0d9ccdf))
+* **icon rules:** align icon-picker layout with target editor ([536f391](https://github.com/raymfang/iot-app-kit/commit/536f3910d2f50cfa41a80e98b43a43f59d0a249f))
+* internal pipeline has issues with lfs, reverting ([968f950](https://github.com/raymfang/iot-app-kit/commit/968f95005c51591d7cb99af323808fd232b8d4e9))
+* **matterport:** fix zoom to tag ([49a04f8](https://github.com/raymfang/iot-app-kit/commit/49a04f81bc464d20798f219f77f325bde74ad1f6))
+* **scene composer:** fix for missing grid ([2a4c4c8](https://github.com/raymfang/iot-app-kit/commit/2a4c4c8b194a2eceebe73dc87d24215836be4a99))
+* **scene composer:** removing custom grid line colors ([632f7a2](https://github.com/raymfang/iot-app-kit/commit/632f7a210a80281b1d3c53b0a5de168f8cae9d10))
+* **scene composer:** restoring dark mode in stotybook ([94e9ac4](https://github.com/raymfang/iot-app-kit/commit/94e9ac4e48762d5389c1fead82938d5ed90857a3))
+* **scene composer:** show correct Icon field for tags with Custom Style ([a2239b8](https://github.com/raymfang/iot-app-kit/commit/a2239b86f31fcfcf138a4e7b2305f80958baa641))
+* **scene tags:** fix anchor stems not triggering onWidgetClick ([6945512](https://github.com/raymfang/iot-app-kit/commit/6945512eadbdd8d8bc09977ecce7511fbf136311))
+* **scene-composer:** 3D model selection broken on first click ([7ee722a](https://github.com/raymfang/iot-app-kit/commit/7ee722ab3cf1aa4a353e7b05c1a9b53f3ac00c88))
+* **scene-composer:** add scroll bar to show all tag icons by default ([15c5dee](https://github.com/raymfang/iot-app-kit/commit/15c5deef876eb6af9d4332f3944aeead31412a59))
+* **scene-composer:** fix scene hierarchy in viewer mode ([c8c70fd](https://github.com/raymfang/iot-app-kit/commit/c8c70fdac04d8aab12f5a6a3f19303cb6754d083))
+* **scene-composer:** fix sub-model selection ([0a11b9a](https://github.com/raymfang/iot-app-kit/commit/0a11b9a391767fea2d255509ac9377889e812a5c))
+* **scene-composer:** restore the grid line colors ([be53320](https://github.com/raymfang/iot-app-kit/commit/be53320c4b553f26d3470dd9bf701fa45b85fd7c))
+* **scene-composer:** sync tag icon from Matterport ([e0aa7a7](https://github.com/raymfang/iot-app-kit/commit/e0aa7a72db0dc1bcbc3a9c7c7ae87e4b5c061b84))
+* **scene:** add overlay close button back ([24f0d94](https://github.com/raymfang/iot-app-kit/commit/24f0d9427a62ea7174983e10af75fe6f6dcb363a))
+* **Scene:** animation components added at correct time behind flag ([da149cc](https://github.com/raymfang/iot-app-kit/commit/da149cc5456f841a98581be82b792f52f062b85a))
+* **scene:** comment tweak ([234b703](https://github.com/raymfang/iot-app-kit/commit/234b703f8991166e831b385c2cdf6bfd8685fe2a))
+* **scene:** ensure the selected overlay is always the one at front ([7a15943](https://github.com/raymfang/iot-app-kit/commit/7a15943accdbae27059e043cf8a55dda525531c1))
+* **scene:** fix camera returning to last target on mode change ([08e608d](https://github.com/raymfang/iot-app-kit/commit/08e608dfffdbdb990beb421ead3a504da607d50f))
+* **scene:** fix transform controls being clickable ([b846730](https://github.com/raymfang/iot-app-kit/commit/b846730c0cb4e605d047f6421b0c28472b911cf7))
+* **scene:** only show selected tags overlay ([20b7c57](https://github.com/raymfang/iot-app-kit/commit/20b7c578bd6b4e44bf11109e0f55f9212328b812))
+* **scene:** remove transform controls from raycast ([9cd9861](https://github.com/raymfang/iot-app-kit/commit/9cd9861768fb538726f22541aa54ef05c0f4adf9))
+* **scene:** stop scene composer from forcing dark mode on page ([40ef97b](https://github.com/raymfang/iot-app-kit/commit/40ef97b4a6b2baa376fd129991b4672369631323))
+* **tools-iottwinmaker:** update dashboard role to include execute query api ([b63d053](https://github.com/raymfang/iot-app-kit/commit/b63d0537ce247724d0dd73d8d0d1ffba20e0ab5a))
+* update component name ([e768a88](https://github.com/raymfang/iot-app-kit/commit/e768a884118768b5080e745ef8113a344dd0d80e))
+* update HistoryItemGroup snap ([ff64273](https://github.com/raymfang/iot-app-kit/commit/ff64273d2ec48609a4edb2156a2ea9e4bb04a1b4))
+* update package-lock.json ([e768a88](https://github.com/raymfang/iot-app-kit/commit/e768a884118768b5080e745ef8113a344dd0d80e))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/core bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/react-components bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/related-table bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/source-iottwinmaker bumped from 9.15.0 to 10.0.0
+  * devDependencies
+    * eslint-config-iot-app-kit bumped from 9.15.0 to 10.0.0
+
 ## [9.15.0](https://github.com/awslabs/iot-app-kit/compare/scene-composer-v9.14.0...scene-composer-v9.15.0) (2024-02-01)
 
 

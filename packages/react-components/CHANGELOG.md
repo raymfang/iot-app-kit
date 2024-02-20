@@ -2,6 +2,148 @@
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+## [10.0.0](https://github.com/raymfang/iot-app-kit/compare/react-components-v9.15.0...react-components-v10.0.0) (2024-02-20)
+
+
+### Features
+
+* add filtering ability ([51933bc](https://github.com/raymfang/iot-app-kit/commit/51933bc6cc1a76071ae1287ee7f79072c8d4dac7))
+* add fixed width and height to the table ([7005009](https://github.com/raymfang/iot-app-kit/commit/7005009b1e325a8f333b281113ce1cf4745b0b19))
+* changed ui experience of chart legend based on legend position [#2277](https://github.com/raymfang/iot-app-kit/issues/2277) ([de1f147](https://github.com/raymfang/iot-app-kit/commit/de1f14772b614f67156a34ac64300111a6c55126))
+* chart fit and finish - match cloudscape colors for axis and labels [#1929](https://github.com/raymfang/iot-app-kit/issues/1929) ([6fe3424](https://github.com/raymfang/iot-app-kit/commit/6fe3424ec90052d2e63a06a34b874958b9c7bf0c))
+* charts legend resize drag handle improvements [#2055](https://github.com/raymfang/iot-app-kit/issues/2055) ([0c69b75](https://github.com/raymfang/iot-app-kit/commit/0c69b755e8b1200238dcaac90a44ad07ab222b23))
+* charts legend resize drag-handle improvements [#2055](https://github.com/raymfang/iot-app-kit/issues/2055) ([9e9db52](https://github.com/raymfang/iot-app-kit/commit/9e9db524cf1b403c9a64c631751ff862349b7ad2))
+* chat legend enhancement [#2277](https://github.com/raymfang/iot-app-kit/issues/2277) ([b1ca8ae](https://github.com/raymfang/iot-app-kit/commit/b1ca8aeda126f09f371e23133fa600d5b56c9b21))
+* **composer:** utils to handle model shader component in entity ([95a4be6](https://github.com/raymfang/iot-app-kit/commit/95a4be668b51d413589b16b7edde67fdd40375d1))
+* **dashboard:** add colors to trendcursors ([a890c7d](https://github.com/raymfang/iot-app-kit/commit/a890c7db39df1a836312ac4050c41e2f4fdd9f4a))
+* **dashboard:** add model based query support ([b95b60c](https://github.com/raymfang/iot-app-kit/commit/b95b60ccf074069268a8d71071067cfbd8265a20))
+* **dashboard:** gated CSV download button ([645fb1c](https://github.com/raymfang/iot-app-kit/commit/645fb1cc3fdac5e27369a6ee538e0677ab4eb8b3))
+* **dashboard:** new line-scatter-chart ([53768b9](https://github.com/raymfang/iot-app-kit/commit/53768b911a13066b9527c88f0e95a620f0025f7a))
+* decimal round of in resource table ([a5da972](https://github.com/raymfang/iot-app-kit/commit/a5da9726649ca81a578efd365ba05d0dbe302b55))
+* display legend unit conditionally  [#2277](https://github.com/raymfang/iot-app-kit/issues/2277) ([9f6440e](https://github.com/raymfang/iot-app-kit/commit/9f6440e9e06c9040a6be46eab3a9141ad02a0509))
+* **echarts:** allow scroll left and right ([5d2341e](https://github.com/raymfang/iot-app-kit/commit/5d2341e71f531556ac8147e1a0742233992ed82d))
+* first click on paginate timeline should move backward from current time duration ([5f9aa42](https://github.com/raymfang/iot-app-kit/commit/5f9aa42aef52d1bade596d0b8cfa1d58d51cce52))
+* header design update ([700a913](https://github.com/raymfang/iot-app-kit/commit/700a91366ba57d7f6ca4b2058ee308a7317db9eb))
+* legend resize ([792b617](https://github.com/raymfang/iot-app-kit/commit/792b6170cc19402f3c49fbd60e4a07dc0890c434))
+* legend table is implemeted using tanstack table ([c92533a](https://github.com/raymfang/iot-app-kit/commit/c92533a342c95618d6dcf7d2a13bdad204bb01de))
+* lint accessibility ([0db36ef](https://github.com/raymfang/iot-app-kit/commit/0db36ef6a07fe5e0709d17081dffa7d23669e2fe))
+* preferences for pagination in table widget [#1890](https://github.com/raymfang/iot-app-kit/issues/1890) ([8072232](https://github.com/raymfang/iot-app-kit/commit/8072232240a17274556d208fc22d32a811866517))
+* **react-components:** adding significant digits to trendcursors ([ef4c987](https://github.com/raymfang/iot-app-kit/commit/ef4c987f5142a7be0ec22aae49a31397999b45e2))
+* **react-components:** adding TrendCursor Sync to dashboard ([d046184](https://github.com/raymfang/iot-app-kit/commit/d046184b836e9cb3670b210eb24c4fd91167b52a))
+* **react-components:** brush zoom ([bddb7e1](https://github.com/raymfang/iot-app-kit/commit/bddb7e1e7b18a2179678fd6bee6a50d0a978d26d))
+* **react-components:** hide/show properties from legend ([e666cf1](https://github.com/raymfang/iot-app-kit/commit/e666cf1cfba8343d1a5bbb0f38a4341969a18575))
+* **react-components:** refactoring echarts ([83e505f](https://github.com/raymfang/iot-app-kit/commit/83e505ffaa9d31fe476be4d7f8029b5ae7c5a3ea))
+* **react-components:** sync echarts viewport ([e04e040](https://github.com/raymfang/iot-app-kit/commit/e04e04079630361047e82d8564678cd4e5857cdd))
+* **react-components:** trendcurors using echarts extension ([a7c6bbe](https://github.com/raymfang/iot-app-kit/commit/a7c6bbe064ae746f024b74d885721a70a06716a2))
+* **ResourceExplorer:** hide properties table when not needed to be displayed ([0fca5e9](https://github.com/raymfang/iot-app-kit/commit/0fca5e9089ac7af52e1d31b2143acb121cb7869b))
+* table widget pagination and sortingdisabled ([b727eae](https://github.com/raymfang/iot-app-kit/commit/b727eae8364f19f2e997fa0c9275e1f0a947f854))
+* updated the chart legend ux [#1930](https://github.com/raymfang/iot-app-kit/issues/1930) ([68b8618](https://github.com/raymfang/iot-app-kit/commit/68b8618226c5f9ab0c5da64f7ad9210459809232))
+* updated the chart legend ux(spacing, legend border color, width, tooltip) ([390cbe3](https://github.com/raymfang/iot-app-kit/commit/390cbe3414286bd7cfb1f041a2d21264552e7bd3))
+* xy-plot y axis lable changes [#2378](https://github.com/raymfang/iot-app-kit/issues/2378) ([48389c3](https://github.com/raymfang/iot-app-kit/commit/48389c3e59305525b11b63233c3a79d4a8e3a78d))
+
+
+### Bug Fixes
+
+* accessible property filter labels ([30554a1](https://github.com/raymfang/iot-app-kit/commit/30554a1f59f2462b1a5334424866f67ee4507455))
+* add eslint rule for hooks ([de7cc0d](https://github.com/raymfang/iot-app-kit/commit/de7cc0d94ffdb79d3cb2ce622dd322e6d8497d61))
+* add signigicant digits to xy plot ([70a109e](https://github.com/raymfang/iot-app-kit/commit/70a109e8083b6729313f4f0dc362df0f3cf6ea62))
+* broken tooltip imports ([8a25332](https://github.com/raymfang/iot-app-kit/commit/8a25332379e647911504cd75ff913f6b911a43c4))
+* bugfix for overlapping colors in color palette ([7b4c95b](https://github.com/raymfang/iot-app-kit/commit/7b4c95b45866548f85b10fee3167a35354d73cfb))
+* chart gesture performance ([cdd52c6](https://github.com/raymfang/iot-app-kit/commit/cdd52c627e99f4e712475b90d2869b16a5684038))
+* **CSS-Loader:** updated sass-loader & fixed style ([aee4abc](https://github.com/raymfang/iot-app-kit/commit/aee4abcd22617cd1b28641711a4be2d1bab4e252))
+* **dashboard:** chart respects absolute min and max between data and thresholds ([db16712](https://github.com/raymfang/iot-app-kit/commit/db1671225e300a18765d55a8afd1534640d264de))
+* **dashboard:** improve widget drag and resize ([fcdc586](https://github.com/raymfang/iot-app-kit/commit/fcdc5862fc558f136d510eaa85e241daa61d9988))
+* **dashboard:** remove viewport from the dashboard state to use viewport hook ([a9011a8](https://github.com/raymfang/iot-app-kit/commit/a9011a8a22e3bc41076fa6fb64065c016282d012))
+* download button and zoom undo button ([a60a81b](https://github.com/raymfang/iot-app-kit/commit/a60a81b6f6e64b3113b14edcf6efe9fe82ef47f7))
+* **echarts:** improved x+y axis min and max ([38741e2](https://github.com/raymfang/iot-app-kit/commit/38741e245b450c7e547b10305349f9652ae1872f))
+* fix data-zoom behavior for base chart ([0c66a80](https://github.com/raymfang/iot-app-kit/commit/0c66a8016e2aa827ad3093c3ef89d6437e014d18))
+* fix filtered data on zooms ([99e2f90](https://github.com/raymfang/iot-app-kit/commit/99e2f90aecdbaaa354e62e76b22c88a8530c1509))
+* fixed property section tooltip gets cut off if property has longer name [#2293](https://github.com/raymfang/iot-app-kit/issues/2293) ([e496e4d](https://github.com/raymfang/iot-app-kit/commit/e496e4d52c566cab3e17e332ef3b587cd9fcc094))
+* groupable echarts ([d704292](https://github.com/raymfang/iot-app-kit/commit/d704292964e6434450572154c60863fbdb027dc2))
+* hidden and highlighted datastreams persist correctly ([5a85bb7](https://github.com/raymfang/iot-app-kit/commit/5a85bb7d40d07dce439a1bfa15550d8893089cbd))
+* immediately change the line chart viewport when updating relative time range ([5ebb2f1](https://github.com/raymfang/iot-app-kit/commit/5ebb2f1597595bf66c63850835e2a64752e4ef9b))
+* immediately change the line chart viewport when updating relative time range ([95b5b7d](https://github.com/raymfang/iot-app-kit/commit/95b5b7d80914a757613c3263f7bf0218acb355b4))
+* improved zoom and default values for y axis ([112e5c5](https://github.com/raymfang/iot-app-kit/commit/112e5c58d7e3478dec03dfbb2eb52ec315b4690d))
+* internal pipeline has issues with lfs, reverting ([968f950](https://github.com/raymfang/iot-app-kit/commit/968f95005c51591d7cb99af323808fd232b8d4e9))
+* line chart progresses in time ([15876a8](https://github.com/raymfang/iot-app-kit/commit/15876a86e4d3790e41f917758618b3f11cc948c7))
+* make context menu appear on top of chart tooltip ([e1622c8](https://github.com/raymfang/iot-app-kit/commit/e1622c86bf4ead6856e7e1c9be1d5b8a1d6d4d61))
+* panning on chart widget moving [#2294](https://github.com/raymfang/iot-app-kit/issues/2294) ([9cefd9a](https://github.com/raymfang/iot-app-kit/commit/9cefd9a2107465ccde1468f1e0e2a271b0d30381))
+* react-component Chart story book is broken ([c273ad5](https://github.com/raymfang/iot-app-kit/commit/c273ad529a7d78f887a2b8c64b50f76bfc018fc2))
+* **react-components:** add echarts extension for handling custom-y-axis ([b481beb](https://github.com/raymfang/iot-app-kit/commit/b481beb1e5a9a014a688d264aa3cb3addc4f51c7))
+* **react-components:** add fallback for property name to id ([a1024d4](https://github.com/raymfang/iot-app-kit/commit/a1024d459fd24d8c7056326706b41ff505eb41ec))
+* **react-components:** adding debounce to the echarts zoom handler ([b983385](https://github.com/raymfang/iot-app-kit/commit/b98338508da223bab1a99c28641276ff02c537b5))
+* **react-components:** adding handling of Yminmax for TC and fixing styling issues ([1581b9f](https://github.com/raymfang/iot-app-kit/commit/1581b9fb7cb77037fa830eaba07155aa253cfa33))
+* **react-components:** clear ymin and ymax was getting emitted on every loop ([8609a48](https://github.com/raymfang/iot-app-kit/commit/8609a487a1b7ba9d4884750a6e6ee8819873a4b1))
+* **react-components:** confining tootip to the chart area ([1bff986](https://github.com/raymfang/iot-app-kit/commit/1bff986999dc88a261caed22c3a77aab892219ad))
+* **react-components:** echarts grab on canvas update cursor and tooltip ([bfef4e8](https://github.com/raymfang/iot-app-kit/commit/bfef4e878e9a47a9ed1f578767a04b03e6bc8a5e))
+* **react-components:** echarts grab on canvas update cursor and tooltip ([a29da3a](https://github.com/raymfang/iot-app-kit/commit/a29da3a08a769137610bc37efde5605bf6b62dc2))
+* **react-components:** echarts resize drag fix ([19ccc7e](https://github.com/raymfang/iot-app-kit/commit/19ccc7ee4569aea891b43883a8ba1dedf3ac4fc9))
+* **react-components:** fix global and chart store persistence ([83f1345](https://github.com/raymfang/iot-app-kit/commit/83f13452cbf350639cc2cc576d47a26138d58832))
+* **react-components:** fix TC behaviour when there is a change in query ([50edcc1](https://github.com/raymfang/iot-app-kit/commit/50edcc1b2131c03c9e30621407a3d3d201825a90))
+* **react-components:** fix the mouse events ([7c07a37](https://github.com/raymfang/iot-app-kit/commit/7c07a37eb5e8649a6d967c96b297659caad270a8))
+* **react-components:** fixing TCs on data zoom ([379525c](https://github.com/raymfang/iot-app-kit/commit/379525cd1246061398ff8a113963b968466ae11a))
+* **react-components:** fixing the duplicate yAxis values ([60073ef](https://github.com/raymfang/iot-app-kit/commit/60073ef7ea4e1167218c8cdecd021bc677d5cc66))
+* **react-components:** fixing the prod issue of dashboard throwing exception ([7ecd252](https://github.com/raymfang/iot-app-kit/commit/7ecd2526ed5c07f793ec5e97b1d3eb5595e67a7d))
+* **react-components:** fixing the viewport and some styling elements ([7d3526e](https://github.com/raymfang/iot-app-kit/commit/7d3526e34c86b55632a4d5aa0c7029fd1499a48b))
+* **react-components:** fixing the xaxis and viewport dependency ([139bcc1](https://github.com/raymfang/iot-app-kit/commit/139bcc15aa219c1906544086ab6bf3d24e4035da))
+* **react-components:** hitbox spans entire pagination button ([6a5b2f8](https://github.com/raymfang/iot-app-kit/commit/6a5b2f8eaf237edc4aaae414765f5f186ce09c6a))
+* **react-components:** mock date in viewport adapter date tests ([06200dd](https://github.com/raymfang/iot-app-kit/commit/06200dda24e5956c6db0a2b4bfe750cdf53c8592))
+* **react-components:** need stop propagation in start and end of resize event ([30e9901](https://github.com/raymfang/iot-app-kit/commit/30e99010bc57e48040ddcac8c41546e745a5a3f9))
+* **react-components:** pagination can move forward on first click from relative range ([fcb04f7](https://github.com/raymfang/iot-app-kit/commit/fcb04f73c3bf3af8a467169a3e9cbd6a6743d462))
+* **react-components:** pagination over time + tooltip ([ff052c9](https://github.com/raymfang/iot-app-kit/commit/ff052c94fa9f57ac8138d025301a384ab217b258))
+* **react-components:** performance fixes for chart component ([403f2bf](https://github.com/raymfang/iot-app-kit/commit/403f2bf6beea75e1e1668e33c60a6149ef1b5436))
+* **react-components:** refactor chart to use dataset ([b403789](https://github.com/raymfang/iot-app-kit/commit/b4037897cd4e7169958373bbf61d29c7454706ef))
+* **react-components:** refactor legend table into modules ([f5eed70](https://github.com/raymfang/iot-app-kit/commit/f5eed7068b70ae9305782f07b08115294b26a3b7))
+* **react-components:** remove data points after a threshold ([cd6a189](https://github.com/raymfang/iot-app-kit/commit/cd6a18913d2c0f3fb8b066dffbdf48f38d6955e4))
+* **react-components:** remove padded y axis code ([7e3d365](https://github.com/raymfang/iot-app-kit/commit/7e3d365d07dd4b074c6dda6d2934b7cb05fcde55))
+* **react-components:** remove secondary selection state when using TCs or gestures ([3ba4e6a](https://github.com/raymfang/iot-app-kit/commit/3ba4e6a1cc0c2a7fd48eb130f3b72262fcd97ad5))
+* **react-components:** removing animation for series lines ([b245995](https://github.com/raymfang/iot-app-kit/commit/b245995766c4f2b83bca219e9d8e6f806912cd6c))
+* **react-components:** toggle legend hides container ([8d0ae53](https://github.com/raymfang/iot-app-kit/commit/8d0ae53981698bc8121cb0e40831b9d61e693075))
+* **react-components:** trendcursor hotkey indicates addition state ([c9d34e0](https://github.com/raymfang/iot-app-kit/commit/c9d34e0ef4ba891522336f05718d1808442949e3))
+* **react-components:** update viewportAdapter tests for month and minutes ([a269626](https://github.com/raymfang/iot-app-kit/commit/a269626bd3e78a8b5f515b8f3d590848e9f70725))
+* **react-components:** updates for x-axis panning performance ([07a7624](https://github.com/raymfang/iot-app-kit/commit/07a7624d77962c38e7457abea1602082ebf2f5a3))
+* **react-components:** updating echarts ux ([ddfc9c8](https://github.com/raymfang/iot-app-kit/commit/ddfc9c8cc15f32a8c307653daf5d2159918e58b2))
+* **react-components:** updating echarts with the fixes founf during bug bash ([9f32c21](https://github.com/raymfang/iot-app-kit/commit/9f32c21ae53d99ddac718caa520d9e852a25f499))
+* **react-component:** updating TC to have a drag area instead of just drag on the line ([05068bd](https://github.com/raymfang/iot-app-kit/commit/05068bddfd3a7ff0876550a11263496765b51080))
+* relative month test ([5c6e262](https://github.com/raymfang/iot-app-kit/commit/5c6e262b16b8a739c4a4d9e823453094242c67d9))
+* remove line chart tweening animation ([d9e894b](https://github.com/raymfang/iot-app-kit/commit/d9e894b0f651ad24dce87d7f7c4dbe28f43f43e0))
+* removed tanstack table related code ([c8be85d](https://github.com/raymfang/iot-app-kit/commit/c8be85d919faac44441f4b00aa81ac7dbf215599))
+* style updates and bugfixes for multi y axis ([e11fd3e](https://github.com/raymfang/iot-app-kit/commit/e11fd3eb6629d75b3b2abdb2ad0466d02e66b8ef))
+* table resize button aria label ([1618d50](https://github.com/raymfang/iot-app-kit/commit/1618d50a713cb1be8b9a74899144ca92cd9ec5f1))
+* toggle working linechar ([9ea6117](https://github.com/raymfang/iot-app-kit/commit/9ea61177710b9ece1be169a0c50e1c19fdefb5e6))
+* ungate CSV download feature ([ec11c82](https://github.com/raymfang/iot-app-kit/commit/ec11c82c1b2932a5f7f28d9394f469cac6d68f97))
+* update dependency to not include styles ([e09651e](https://github.com/raymfang/iot-app-kit/commit/e09651e5c065458a269d8d95d1c9c959c5f95ace))
+* update unit test ([2276584](https://github.com/raymfang/iot-app-kit/commit/2276584325c75b8aa823d24588fb589b18876699))
+* updated the wcag compliance for dashboard resource explorer pane [#2173](https://github.com/raymfang/iot-app-kit/issues/2173) ([26bd618](https://github.com/raymfang/iot-app-kit/commit/26bd6181e4c507360247d6a7cddee7db0ba2c5bd))
+* updates for performance issues ([8863b9a](https://github.com/raymfang/iot-app-kit/commit/8863b9a80d7a8284aa4732ed25298d165a769ea9))
+* use datastream id as legend table row key ([b4c11bc](https://github.com/raymfang/iot-app-kit/commit/b4c11bcd40400d4f7eae680d5ab521f00b638f64))
+* **video player:** correcting the VideoPlayer export ([18213d7](https://github.com/raymfang/iot-app-kit/commit/18213d7b254355776900c0e6c735ce6a039ac3f5))
+* **video-player:** toggle playback mode and update time range ([a033cb0](https://github.com/raymfang/iot-app-kit/commit/a033cb01824ccff6a63eb4e62d019b691b085a0a))
+* x-axis toggle will toggle both x and y axis [#1925](https://github.com/raymfang/iot-app-kit/issues/1925) ([58b0dbb](https://github.com/raymfang/iot-app-kit/commit/58b0dbbc72a9dbfd13648a454ea36ac570efd0eb))
+* yAxis label collides with yAxis name [#2471](https://github.com/raymfang/iot-app-kit/issues/2471) ([85ac6ac](https://github.com/raymfang/iot-app-kit/commit/85ac6ac4586d560e44cadedbffe5b1a187bd8bb8))
+
+
+### Reverts
+
+* updated the chart legend ux(spacing, legend border color, width, tooltip) ([6bbe391](https://github.com/raymfang/iot-app-kit/commit/6bbe39103f286ed6f09bd1f4fdd3353dba833e5a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/components bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/core bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/core-util bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/source-iottwinmaker bumped from 9.15.0 to 10.0.0
+  * devDependencies
+    * @iot-app-kit/core bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/jest-config bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/source-iotsitewise bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/testing-util bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/ts-config bumped from 9.15.0 to 10.0.0
+    * eslint-config-iot-app-kit bumped from 9.15.0 to 10.0.0
+
 ## [9.15.0](https://github.com/awslabs/iot-app-kit/compare/react-components-v9.14.0...react-components-v9.15.0) (2024-02-01)
 
 

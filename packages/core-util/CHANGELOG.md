@@ -1,5 +1,31 @@
 # Changelog
 
+## [10.0.0](https://github.com/raymfang/iot-app-kit/compare/core-util-v9.15.0...core-util-v10.0.0) (2024-02-20)
+
+
+### Features
+
+* **dashboard:** composite model api calls and updated SDK ([9c23a38](https://github.com/raymfang/iot-app-kit/commit/9c23a383a46895bab05eccc265dc61318c767b49))
+* **dashboard:** new line-scatter-chart ([53768b9](https://github.com/raymfang/iot-app-kit/commit/53768b911a13066b9527c88f0e95a620f0025f7a))
+* decimal round of in resource table ([a5da972](https://github.com/raymfang/iot-app-kit/commit/a5da9726649ca81a578efd365ba05d0dbe302b55))
+
+
+### Bug Fixes
+
+* add more unique colors ([8641b1f](https://github.com/raymfang/iot-app-kit/commit/8641b1f737919b868da7b309cb7ebc6183ef1918))
+* bugfix for overlapping colors in color palette ([7b4c95b](https://github.com/raymfang/iot-app-kit/commit/7b4c95b45866548f85b10fee3167a35354d73cfb))
+* line charts colors too quickly choose similar colors ([0af5465](https://github.com/raymfang/iot-app-kit/commit/0af5465ffc0a7f587a8e4a53487c8fb56c35d36a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/core bumped from 9.15.0 to 10.0.0
+  * devDependencies
+    * @iot-app-kit/jest-config bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/ts-config bumped from 9.15.0 to 10.0.0
+
 ## [9.15.0](https://github.com/awslabs/iot-app-kit/compare/core-util-v9.14.0...core-util-v9.15.0) (2024-02-01)
 
 

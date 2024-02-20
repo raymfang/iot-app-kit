@@ -1,5 +1,12 @@
 # Changelog
 
+## [10.0.0](https://github.com/raymfang/iot-app-kit/compare/eslint-config-v9.15.0...eslint-config-v10.0.0) (2024-02-20)
+
+
+### Bug Fixes
+
+* restrict [@iot-app-kit](https://github.com/iot-app-kit) imports ([780f404](https://github.com/raymfang/iot-app-kit/commit/780f404f20475dab7d0e21af271b5f3f98defee5))
+
 ## [9.15.0](https://github.com/awslabs/iot-app-kit/compare/eslint-config-v9.14.0...eslint-config-v9.15.0) (2024-02-01)
 
 
