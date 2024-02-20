@@ -3,6 +3,55 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.0](https://github.com/raymfang/iot-app-kit/compare/source-iotsitewise-v9.15.0...source-iotsitewise-v10.0.0) (2024-02-20)
+
+
+### Features
+
+* ability to toggle property visibility in config panel [#1986](https://github.com/raymfang/iot-app-kit/issues/1986) ([560b776](https://github.com/raymfang/iot-app-kit/commit/560b7765c4a4ae8db6d06e70f69b2276844716a8))
+* async fetchTimeSeriesData ([2b776cc](https://github.com/raymfang/iot-app-kit/commit/2b776ccf73a538abfbcf4a0ba175dca7c2c4aa0c))
+* **dashboard:** add model based query support ([b95b60c](https://github.com/raymfang/iot-app-kit/commit/b95b60ccf074069268a8d71071067cfbd8265a20))
+* **dashboard:** composite model api calls and updated SDK ([9c23a38](https://github.com/raymfang/iot-app-kit/commit/9c23a383a46895bab05eccc265dc61318c767b49))
+* fetchTimeSeriesData ([1c65191](https://github.com/raymfang/iot-app-kit/commit/1c65191654c726b66cf1e0bcc2df83d620f6d4a5))
+* unmodeled data streams ([71bebef](https://github.com/raymfang/iot-app-kit/commit/71bebefebdaefc235ec2ec505bc5f4dd0d1c7f31))
+
+
+### Bug Fixes
+
+* add request settings to fetchTimeSeriesData ([d7cbd9d](https://github.com/raymfang/iot-app-kit/commit/d7cbd9d8bb5a5f56804a7ebce2c87e944bcb6f2b))
+* grab asset composite property correctly ([1c57017](https://github.com/raymfang/iot-app-kit/commit/1c57017f3b3c78c62fc3a3cdfc6f4fa01a09f745))
+* prevent fetching ([85a7b35](https://github.com/raymfang/iot-app-kit/commit/85a7b35f9b5303fe037de5636a75827335ffdaba))
+* **ResourceExplorer:** implement toggling on/off of properties visibility ([8666736](https://github.com/raymfang/iot-app-kit/commit/8666736eb4642cadd7efcedd99fc680b4df17f83))
+* restrict [@iot-app-kit](https://github.com/iot-app-kit) imports ([780f404](https://github.com/raymfang/iot-app-kit/commit/780f404f20475dab7d0e21af271b5f3f98defee5))
+* source-iotsitewise batch API options ([6e4d430](https://github.com/raymfang/iot-app-kit/commit/6e4d430a033bbd54eb403a96f04ecb23a7909e36))
+* synchronize requests after switching tabs ([14f89d9](https://github.com/raymfang/iot-app-kit/commit/14f89d982887db3cd61886c32ec2aa27997f8964))
+
+
+### Performance Improvements
+
+* improve raw batching ([263282d](https://github.com/raymfang/iot-app-kit/commit/263282d751d334745ddc3079d6a8959b5cf1e6d9))
+* increase batch entry and result size ([cf5e978](https://github.com/raymfang/iot-app-kit/commit/cf5e9785418c801e89cc2afa2a626e16547a8a7c))
+* increase batch size ([1fefe81](https://github.com/raymfang/iot-app-kit/commit/1fefe81cecf8bbeffebb5e89b73cab3494beba21))
+* prevent duplication of simultaneous data stream metadata requests ([bfbe7b2](https://github.com/raymfang/iot-app-kit/commit/bfbe7b23c968e367423cf8a81504e2773e5460bc))
+
+
+### Reverts
+
+* "perf: increase batch size" ([636a539](https://github.com/raymfang/iot-app-kit/commit/636a539fcba8c62871b1b60b117ab2881124ac81))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/core bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/core-util bumped from 9.15.0 to 10.0.0
+  * devDependencies
+    * @iot-app-kit/jest-config bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/testing-util bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/ts-config bumped from 9.15.0 to 10.0.0
+    * eslint-config-iot-app-kit bumped from 9.15.0 to 10.0.0
+
 ## [9.15.0](https://github.com/awslabs/iot-app-kit/compare/source-iotsitewise-v9.14.0...source-iotsitewise-v9.15.0) (2024-02-01)
 
 

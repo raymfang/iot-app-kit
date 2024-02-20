@@ -3,6 +3,37 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.0](https://github.com/raymfang/iot-app-kit/compare/core-v9.15.0...core-v10.0.0) (2024-02-20)
+
+
+### Features
+
+* async fetchTimeSeriesData ([2b776cc](https://github.com/raymfang/iot-app-kit/commit/2b776ccf73a538abfbcf4a0ba175dca7c2c4aa0c))
+* **composer:** support showing flash message ([da7281a](https://github.com/raymfang/iot-app-kit/commit/da7281a84e47325c56071850f6ea49a6eed73233))
+* **dashboard:** composite model api calls and updated SDK ([9c23a38](https://github.com/raymfang/iot-app-kit/commit/9c23a383a46895bab05eccc265dc61318c767b49))
+* experimental plugins registry; logger and metrics recorder plugins ([95b904f](https://github.com/raymfang/iot-app-kit/commit/95b904f281a860b04e145229c7c70fe4be08cba5))
+* fetchTimeSeriesData ([1c65191](https://github.com/raymfang/iot-app-kit/commit/1c65191654c726b66cf1e0bcc2df83d620f6d4a5))
+
+
+### Bug Fixes
+
+* add request settings to fetchTimeSeriesData ([d7cbd9d](https://github.com/raymfang/iot-app-kit/commit/d7cbd9d8bb5a5f56804a7ebce2c87e944bcb6f2b))
+* added experimental plugin exports ([4e44dbd](https://github.com/raymfang/iot-app-kit/commit/4e44dbd83c5734facfe342162ebac8a3fc3a1575))
+* **core:** fix for duplicate data per timestamp issue ([9cca8b1](https://github.com/raymfang/iot-app-kit/commit/9cca8b1767584b770fe08d4da24b20c4a0fc7a40))
+* **core:** increase cache and min request interval to prevent making many requests for near now data ([403fec9](https://github.com/raymfang/iot-app-kit/commit/403fec94c16a68adbae04134dc4ee69bedb4f4d6))
+* fix data-zoom behavior for base chart ([0c66a80](https://github.com/raymfang/iot-app-kit/commit/0c66a8016e2aa827ad3093c3ef89d6437e014d18))
+* synchronize intervals when new intervals are created ([cbc0fa6](https://github.com/raymfang/iot-app-kit/commit/cbc0fa69c0aac46f2e63386568a23c4c485c7beb))
+* synchronize requests after switching tabs ([14f89d9](https://github.com/raymfang/iot-app-kit/commit/14f89d982887db3cd61886c32ec2aa27997f8964))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * @iot-app-kit/jest-config bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/ts-config bumped from 9.15.0 to 10.0.0
+    * eslint-config-iot-app-kit bumped from 9.15.0 to 10.0.0
+
 ## [9.15.0](https://github.com/awslabs/iot-app-kit/compare/core-v9.14.0...core-v9.15.0) (2024-02-01)
 
 
