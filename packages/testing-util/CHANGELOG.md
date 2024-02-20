@@ -1,5 +1,22 @@
 # Changelog
 
+## [10.0.0](https://github.com/raymfang/iot-app-kit/compare/testing-util-v9.15.0...testing-util-v10.0.0) (2024-02-20)
+
+
+### Features
+
+* **dashboard:** composite model api calls and updated SDK ([9c23a38](https://github.com/raymfang/iot-app-kit/commit/9c23a383a46895bab05eccc265dc61318c767b49))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/core bumped from 9.15.0 to 10.0.0
+  * devDependencies
+    * @iot-app-kit/ts-config bumped from ^9.15.0 to ^10.0.0
+    * eslint-config-iot-app-kit bumped from ^9.15.0 to ^10.0.0
+
 ## [9.15.0](https://github.com/awslabs/iot-app-kit/compare/testing-util-v9.14.0...testing-util-v9.15.0) (2024-02-01)
 
 

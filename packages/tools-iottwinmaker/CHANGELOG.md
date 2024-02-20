@@ -1,5 +1,14 @@
 # Changelog
 
+## [10.0.0](https://github.com/raymfang/iot-app-kit/compare/tools-iottwinmaker-v9.15.0...tools-iottwinmaker-v10.0.0) (2024-02-20)
+
+
+### Bug Fixes
+
+* added proper error handling for S3 Bucket ACL issues found by customer, updated README ([bbc0aa3](https://github.com/raymfang/iot-app-kit/commit/bbc0aa388041a76b0c79e6202c44431eeae4a9af))
+* **TMDT:** change role name to match console, revert GLB code to fix bug, add error handling for IAM ([66f5d83](https://github.com/raymfang/iot-app-kit/commit/66f5d83d3800e07efd3e54b912dbfbbda4ea7f25))
+* **tools-iottwinmaker:** update dashboard role to include execute query api ([b63d053](https://github.com/raymfang/iot-app-kit/commit/b63d0537ce247724d0dd73d8d0d1ffba20e0ab5a))
+
 ## [9.15.0](https://github.com/awslabs/iot-app-kit/compare/tools-iottwinmaker-v9.14.0...tools-iottwinmaker-v9.15.0) (2024-02-01)
 
 

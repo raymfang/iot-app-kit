@@ -3,6 +3,32 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.0](https://github.com/raymfang/iot-app-kit/compare/source-iottwinmaker-v9.15.0...source-iottwinmaker-v10.0.0) (2024-02-20)
+
+
+### Features
+
+* **composer:** render tags from layer ([d9c5191](https://github.com/raymfang/iot-app-kit/commit/d9c519114d3e39c3913eb32b23984f8204b756d8))
+* **composer:** support showing flash message ([da7281a](https://github.com/raymfang/iot-app-kit/commit/da7281a84e47325c56071850f6ea49a6eed73233))
+* **dashboard:** composite model api calls and updated SDK ([9c23a38](https://github.com/raymfang/iot-app-kit/commit/9c23a383a46895bab05eccc265dc61318c767b49))
+* **TM-source:** add entity APIs to SceneMetadataModule ([1a91084](https://github.com/raymfang/iot-app-kit/commit/1a910844692aa30bbd4b9d1920d415378bcad130))
+
+
+### Bug Fixes
+
+* synchronize requests after switching tabs ([14f89d9](https://github.com/raymfang/iot-app-kit/commit/14f89d982887db3cd61886c32ec2aa27997f8964))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @iot-app-kit/core bumped from 9.15.0 to 10.0.0
+  * devDependencies
+    * @iot-app-kit/jest-config bumped from 9.15.0 to 10.0.0
+    * @iot-app-kit/ts-config bumped from 9.15.0 to 10.0.0
+    * eslint-config-iot-app-kit bumped from 9.15.0 to 10.0.0
+
 ## [9.15.0](https://github.com/awslabs/iot-app-kit/compare/source-iottwinmaker-v9.14.0...source-iottwinmaker-v9.15.0) (2024-02-01)
 
 
